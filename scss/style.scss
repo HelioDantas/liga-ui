@@ -18,57 +18,106 @@ $grey-4: #f2f2f2;
 $grey-4-hover: #e6e6e6;
 $grey-4-focus: #e6e6e6;
 
-// Cor desabilitada 
+// Cor desabilitada
 $disabled-color: #f2f2f2;
 
+// Tamanho da tipografia
+$font-size-0: 14px;
+$font-size-1: 16px;
+$font-size-2: 24px;
+
+// Border-radius
+$border-radius-1: 4px;
+$border-radius-2: 8px;
+$border-radius-3: 16px;
+$border-radius-4: 32px;
+$border-radius-4: 64px;
+
+// Tamanho
+$size-1: 4px;
+$size-2: 8px;
+$size-3: 16px;
+$size-4: 32px;
+$size-5: 64px;
+
+body {
+  margin: 0;
+}
+
 .container {
-    max-width: 720px !important;
-    padding: 64px 0 64px 0;
+  max-width: 720px !important;
+  padding: 32px 0 32px 0;
 }
 
 section {
-    margin: 56px 0 56px 0;
+  margin: 56px 0 56px 0;
 }
 
 .color {
-    border-radius: 100%;
-    width: 72px;
-    height: 72px;
-    margin-right: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 8px;
-    p {
-      color: #fff;
-    }
+  border-radius: 100%;
+  width: 72px;
+  height: 72px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 8px;
+  p {
+    color: #fff;
   }
-  
-  .primary {
-    background: $primary-color;
-  }
-  
-  .secondary {
-    background: $secondary-color;
-  }
-  
-  .grey-1 {
-    background: $grey-1;
-  }
-  
-  .grey-2 {
-    background: $grey-2;
-  }
-  
-  .grey-3 {
-    background: $grey-3;
-  }
-  
-  .grey-4 {
-    background: $grey-4;
-  }
-  
-  .grey-4 p {
-    color: $grey-3;
-  }
+}
+
+.primary {
+  background: $primary-color;
+}
+
+.secondary {
+  background: $secondary-color;
+}
+
+.grey-1 {
+  background: $grey-1;
+}
+
+.grey-2 {
+  background: $grey-2;
+}
+
+.grey-3 {
+  background: $grey-3;
+}
+
+.grey-4 {
+  background: $grey-4;
+}
+
+.grey-4 p {
+  color: $grey-3;
+}
+
+pre {
+  border: dashed 1px $grey-2;
+  color: $grey-2;
+  padding: $size-3;
+  border-radius: $size-1;
+  overflow: auto;
+}
+
+code {
+  font-family: "Liberation Mono", "Courier New", monospace;
+  line-height: 1.5;
+}
+
+article {
+  margin: 20px 0 40px 0;
+}
+
+header {
+  background: $grey-1;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+}
