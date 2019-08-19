@@ -1,0 +1,59 @@
+.container {
+  max-width: 720px !important;
+  padding: 64px 0 64px 0;
+}
+
+section {
+  margin: 56px 0 56px 0;
+}
+
+.color {
+  border-radius: 100%;
+  width: 72px;
+  height: 72px;
+  margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.color p {
+  color: #fff;
+}
+
+.primary {
+  background: #1ec4f5;
+}
+
+.secondary {
+  background: #ff528e;
+}
+
+.grey-1 {
+  background: #454545;
+}
+
+.grey-2 {
+  background: #808080;
+}
+
+.grey-3 {
+  background: #bfbfbf;
+}
+
+.grey-4 {
+  background: #f2f2f2;
+}
+
+.grey-4 p {
+  color: #bfbfbf;
+}
+/*# sourceMappingURL=style.css.map */

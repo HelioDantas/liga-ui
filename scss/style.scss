@@ -1,0 +1,74 @@
+// Cor primária
+$primary-color: #1ec4f5;
+$primary-color-hover: #1cb8e8;
+$primary-color-focus: #1aaedb;
+
+// Cor secundária
+$secondary-color: #ff528e;
+$grey-2-hover: #666666;
+$grey-2-focus: #4d4d4d;
+
+// Cinzas
+$grey-1: #454545;
+$grey-2: #808080;
+$grey-3: #bfbfbf;
+$grey-4: #f2f2f2;
+
+// Cinzas hover
+$grey-4-hover: #e6e6e6;
+$grey-4-focus: #e6e6e6;
+
+// Cor desabilitada 
+$disabled-color: #f2f2f2;
+
+.container {
+    max-width: 720px !important;
+    padding: 64px 0 64px 0;
+}
+
+section {
+    margin: 56px 0 56px 0;
+}
+
+.color {
+    border-radius: 100%;
+    width: 72px;
+    height: 72px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    p {
+      color: #fff;
+    }
+  }
+  
+  .primary {
+    background: $primary-color;
+  }
+  
+  .secondary {
+    background: $secondary-color;
+  }
+  
+  .grey-1 {
+    background: $grey-1;
+  }
+  
+  .grey-2 {
+    background: $grey-2;
+  }
+  
+  .grey-3 {
+    background: $grey-3;
+  }
+  
+  .grey-4 {
+    background: $grey-4;
+  }
+  
+  .grey-4 p {
+    color: $grey-3;
+  }

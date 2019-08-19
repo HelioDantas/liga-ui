@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*
+Liga UI CSS v1
+
+Estrutura do CSS:
+
+1. Tipografia
+  1.1. Título
+  1.2. Parágrafo
+  1.3. Legenda
+
+2. Cores
+  2.1. Cor primária
+  2.2. Cor secundária
+  2.3. Cinzas
+  2.4. Cinzas hover
+  2.5. Cor desabilitada
+
+3. Botões
+  3.1. Botão base
+  3.2. Botão primário
+  3.3. Botão secundário
+  3.4. Botão desabilitado
+  3.5. Botão primário link
+  3.6. Botão secundário link
+  3.7. Botão desabilitado link
+
+4. Formulário
+  4.1. Input 
+  4.2. Select
+  4.3. Textarea
+  4.4.
+  4.5.
+*/
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700&display=swap");
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 16px;
+  font-family: "Heebo";
+  font-weight: 500;
+  background: #1ec4f5;
+  border-radius: 64px;
+  padding: 6px 16px;
+  color: #fff;
+  white-space: nowrap;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 4px 0;
+}
+
+.btn-primary {
+  background: #1ec4f5;
+}
+
+.btn-primary:hover {
+  background: #1cb8e8;
+}
+
+.btn-primary:focus {
+  background: #1aaedb;
+}
+
+.btn-secondary {
+  background: #808080;
+}
+
+.btn-secondary:hover {
+  background: #666666;
+}
+
+.btn-secondary:focus {
+  background: #4d4d4d;
+}
+
+.btn-disabled {
+  background: #f2f2f2;
+  color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+.btn-primary-link {
+  background: none !important;
+  color: #1ec4f5;
+  padding: 6px 0;
+}
+
+.btn-primary-link:hover {
+  color: #1cb8e8;
+}
+
+.btn-primary-link:focus {
+  color: #1aaedb;
+}
+
+.btn-secondary-link {
+  background: none !important;
+  color: #808080;
+  padding: 6px 0;
+}
+
+.btn-secondary-link:hover {
+  color: #666666;
+}
+
+.btn-secondary-link:focus {
+  color: #4d4d4d;
+}
+
+.btn-disabled-link {
+  background: none !important;
+  color: #bfbfbf;
+  cursor: not-allowed;
+  padding: 6px 0;
+}
+
+h1 {
+  font-family: "Heebo";
+  font-size: 24px;
+  color: #454545;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: "Heebo";
+  font-size: 16px;
+  color: #454545;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Heebo";
+  font-size: 16px;
+  color: #454545;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Heebo";
+  font-weight: 300;
+  color: #808080;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+span {
+  font-size: 14px;
+}
+
+input {
+  font-family: "Heebo";
+  font-weight: 400;
+  height: 36px;
+  border-radius: 4px;
+  border: none;
+  background: #f2f2f2;
+  padding: 0 16px;
+  font-size: 16px;
+  color: #454545;
+  margin: 4px 0;
+}
+
+input:hover {
+  background: #e6e6e6;
+}
+
+input:focus {
+  background: #f2f2f2;
+  border: solid 1px #454545;
+  color: #454545;
+}
+
+.select {
+  position: relative;
+  width: 187px;
+  height: 36px;
+  overflow: hidden;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+
+.select:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 3.5px 0 3.5px;
+  border-color: #ccc transparent transparent transparent;
+}
+
+.select select {
+  background: transparent !important;
+  width: 187px;
+  font-family: "Heebo";
+  color: #454545 !important;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0 12px 0 12px;
+}
+
+.select:hover {
+  background: #e6e6e6;
+}
+
+.select select:hover {
+  background: #666666;
+}
+
+.select:focus {
+  background: #e6e6e6;
+}
+
+.select select:focus {
+  border: solid 1px #454545;
+  border-radius: 4px;
+  background: #f2f2f2;
+}
+
+textarea {
+  font-family: 'Heebo';
+  font-size: 16px;
+  color: #454545;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 4px 0;
+  padding: 8px 16px;
+}
+
+textarea:hover {
+  background: #e6e6e6;
+}
+
+textarea:focus {
+  border: 1px solid #454545;
+  background: #f2f2f2;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #f2f2f2;
+  border-radius: 50%;
+}
+
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+/*# sourceMappingURL=liga-ui.css.map */
