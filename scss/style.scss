@@ -46,7 +46,6 @@ body {
 
 .container {
   max-width: 720px !important;
-  padding: 32px 0 32px 0;
 }
 
 section {
@@ -116,8 +115,13 @@ article {
 header {
   background: $grey-1;
   width: 100%;
+  padding: $size-4;
 }
 
 header h1 {
   color: white;
+}
+
+header p {
+  color: $grey-3;
 }

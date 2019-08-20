@@ -4,7 +4,6 @@ body {
 
 .container {
   max-width: 720px !important;
-  padding: 32px 0 32px 0;
 }
 
 section {
@@ -74,10 +73,15 @@ article {
 header {
   background: #454545;
   width: 100%;
+  padding: 32px;
 }
 
 header h1 {
   color: white;
+}
+
+header p {
+  color: #bfbfbf;
 }
 
 /*# sourceMappingURL=style.css.map */

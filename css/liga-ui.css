@@ -13,7 +13,6 @@ a {
   padding: 6px 16px;
   color: #fff;
   white-space: nowrap;
-  text-transform: uppercase;
   display: inline-block;
   margin: 4px 0;
 }
@@ -49,17 +48,17 @@ a {
 }
 
 .btn-primary-link {
-  background: none !important;
+  background: none;
   color: #1ec4f5;
-  padding: 6px 0;
+  padding: 6px 16px;
 }
 
 .btn-primary-link:hover {
-  color: #1cb8e8;
+  background: #f2f2f2;
 }
 
 .btn-primary-link:focus {
-  color: #1aaedb;
+  background: #e6e6e6;
 }
 
 .btn-secondary-link {
@@ -69,7 +68,7 @@ a {
 }
 
 .btn-secondary-link:hover {
-  color: #666666;
+  background: #f2f2f2;
 }
 
 .btn-secondary-link:focus {
@@ -88,6 +87,7 @@ h1 {
   font-size: 24px;
   color: #454545;
   font-weight: 300;
+  margin: 0;
 }
 
 h2 {

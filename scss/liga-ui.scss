@@ -58,7 +58,7 @@ a {
   padding: 6px 16px;
   color: #fff;
   white-space: nowrap;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   display: inline-block;
   margin: 4px 0;
 }
@@ -94,15 +94,15 @@ a {
 
 // Botão primário link
 .btn-primary-link {
-  background: none !important;
+  background: none;
   color: $primary-color;
-  padding: 6px 0;
+  padding: 6px 16px;
 }
 .btn-primary-link:hover {
-  color: $primary-color-hover;
+  background: $grey-4;
 }
 .btn-primary-link:focus {
-  color: $primary-color-focus;
+  background: $grey-4-hover;
 }
 
 // Botão secundário link
@@ -112,7 +112,7 @@ a {
   padding: 6px 0;
 }
 .btn-secondary-link:hover {
-  color: $grey-2-hover;
+  background: $grey-4;
 }
 .btn-secondary-link:focus {
   color: $grey-2-focus;
@@ -132,6 +132,7 @@ h1 {
   font-size: $font-size-2;
   color: $grey-1;
   font-weight: 300;
+  margin: 0;
 }
 
 // Subtítulo
